@@ -1,0 +1,124 @@
+body {
+    /* horizontal,verticl centre image */
+   /* bootstrap scrollspy pluging, position must be relative */
+
+   /* add a font family to whole page */
+
+   /* set video as background,make it fixed */
+   /* make sure it appear behind all the elements */
+   /* make it spread across the whole page */
+
+   /* video doesnot work in small devices */
+   /* hide the video and set picture as a background (use media queries) */
+   /* make it spread across the whole page */
+
+
+   /* style the home section */
+
+   /* style the about section */
+
+   /* style the promise section */
+
+   /* style the footer */
+}
+.navbar-brand {
+    color: #93B0E0 !important; 
+    font-size: 25px;
+}
+/* background color to span works, not simple color works here */
+button {
+    border-color: #93B0E0 !important;
+}
+.icon-bar {
+    /* color will not work here */    
+   background-color:#93B0E0 !important;
+}
+
+ul li a{
+    color: #B8C9E5;
+    font-size: 25px;
+}
+ul li a:hover {
+    background-color:#93B0E0 !important;
+}
+.navbar {
+    background-color: rgba(75, 107, 127, 0.2);
+    border-style: none;
+
+}
+
+video {
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    /* video behind everyone */
+    z-index: -100;
+}
+
+#home {
+    background-color: transparent;
+    color: #D6DEEA;
+    text-align: center;
+    padding-top: 15%;
+}
+#home h1 {
+    margin-bottom: 30px;
+}
+#home .btn {
+    background-color: rgba(12, 20, 22, 0.5);
+    color: white;
+    margin-top: 30px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+}
+#about {
+   color: white;
+   text-align: center;
+   padding-top: 100px; 
+}
+
+#about h2 {
+    font-weight: bold;
+}
+
+#about p {
+    font-size: 17px;
+    margin: 30px 0;
+}
+.aoutimage {
+    height: 100px;
+}
+
+/*Style the promise section: 
+-add padding-top for early activation of the nav link.
+-set the width of the carousel and center it
+-set the height of pictures and center them inside the carousel items
+-Move the carousel caption under the pictures
+*/
+#promise{
+    padding-top: 100px;   
+}
+#myCarousel{
+    width: 60%;
+    margin: 0 auto;
+}
+.carousel-inner .item img{
+    height: 400px; 
+    margin: 0 auto;
+}
+
+.carousel-caption{
+    position: relative;
+    left: auto;
+    right: auto;
+    height: 200px;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+    font-size: 15px;
+    padding: 10px 0;
+}
